@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import HomePage from './pages/HomePage'; // Import the new HomePage component
+import HomePage from './pages/HomePage'; 
 import DiplomasPage from './pages/DiplomasPage';
 import RegistrationPage from './pages/RegistrationPage';
 import CoursePage from './pages/CoursePage';
