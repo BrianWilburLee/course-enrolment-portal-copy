@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles.css';
-import homepageImage from '../assets/homepageImage.png'; // Ensure the correct path to the image file.
+import homepageImage from '../assets/homepageImage.png'; 
 
 const HomePage = () => {
   return (
     <div className="homepage">
       <header className="homepage-header">
         <img
-          src={homepageImage} // Using the imported image
+          src={homepageImage} 
           alt="Artificial Intelligence"
           className="homepage-image"
         />

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const DiplomaList = () => {
-  // Example data for diplomas
   const diplomas = [
     {
       id: "database-system",
@@ -40,7 +39,6 @@ const DiplomaList = () => {
     <div className="diploma-list">
       <h1>Diploma List</h1>
 
-      {/* Search Bar */}
       <input
         type="text"
         placeholder="Search diplomas..."
